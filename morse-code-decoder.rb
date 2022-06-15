@@ -97,8 +97,3 @@ def decode(message)
 
   return decoded_message
 end
-
-puts decode_char(".-")
-puts decode_word("-- -.--")
-puts decode("-- -.--   -. .- -- .")
-puts decode(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
